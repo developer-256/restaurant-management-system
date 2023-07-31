@@ -236,6 +236,9 @@ int main()
     int choice;
     do
     {
+        cin.clear();
+        fflush(stdin);
+        
         cout << "________________________________\n";
         cout << "| Choose one of the following: |\n";
         cout << "********************************\n";
